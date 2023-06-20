@@ -1,0 +1,9 @@
+authtoken:29mlo4wMtvqL7Inp5oC6FwDDwJR_GnwXS5giA4EKpg2tg5RB
+
+tunnels:
+  tunnel1:
+    addr: 5000
+    proto: http
+  tunnel2:
+    addr: 3000
+    proto: http
