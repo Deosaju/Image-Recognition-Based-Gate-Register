@@ -13,7 +13,7 @@ const App = () => {
 
   async function process() {
     try {
-      const response = await fetch('https://2cdc-2409-4073-4e99-a76d-ed92-3f32-ab2f-3cb5.ngrok-free.app/capture', {
+      const response = await fetch('https://bb0d-2409-4073-4e99-a76d-ed92-3f32-ab2f-3cb5.ngrok-free.app/capture', {
         method: 'POST', 
         headers: {
           
@@ -36,7 +36,7 @@ const App = () => {
       toast('Please Wait!', {
         duration:10000    
       });
-      const response = await fetch('https://2cdc-2409-4073-4e99-a76d-ed92-3f32-ab2f-3cb5.ngrok-free.app/validate', {
+      const response = await fetch('https://bb0d-2409-4073-4e99-a76d-ed92-3f32-ab2f-3cb5.ngrok-free.app/validate', {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json'
@@ -68,7 +68,7 @@ const App = () => {
           console.log(responseData[i])
           toast.success('Number Plate Matches!')
           toast.success('Starting Facial Recognition!')
-          const response = await fetch('https://2cdc-2409-4073-4e99-a76d-ed92-3f32-ab2f-3cb5.ngrok-free.app/face', {
+          const response = await fetch('https://bb0d-2409-4073-4e99-a76d-ed92-3f32-ab2f-3cb5.ngrok-free.app/face', {
             method: 'POST', 
             headers: {
               'Content-Type': 'application/json'
